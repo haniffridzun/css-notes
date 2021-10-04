@@ -15,16 +15,22 @@ h1 + p {
 }
 
 .special {
-    color: orange;
+    color: pink;
     font-weight: bold;
 }
 
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
+
 a:link {
-    color: pink;
+    color: black;
 }
 
 a:visited {
-    color: green;
+    color: grey;
 }
 
 a:hover {
